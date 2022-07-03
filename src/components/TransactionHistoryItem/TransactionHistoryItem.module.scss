@@ -2,6 +2,19 @@ table {
   border-spacing: 0;
 }
 .tr {
+  background-color: #fff;
+  transition: transform 300ms;
+  transform: scale(1);
+
+  &:hover,
+  :focus {
+    transform: scale(1.05);
+    transition: transform 300ms;
+  }
+
+  &:nth-child(2n) {
+    background-color: rgb(221, 214, 214);
+  }
   &:last-child > .td:first-child {
     border-bottom-left-radius: 10px;
   }
