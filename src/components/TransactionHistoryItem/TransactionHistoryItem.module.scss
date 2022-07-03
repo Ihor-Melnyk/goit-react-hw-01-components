@@ -1,0 +1,22 @@
+table {
+  border-spacing: 0;
+}
+.tr {
+  &:last-child > .td:first-child {
+    border-bottom-left-radius: 10px;
+  }
+  &:last-child > .td:last-child {
+    border-bottom-right-radius: 10px;
+  }
+}
+.td {
+  padding: 10px 0;
+  margin: 0;
+  text-align: center;
+  color: gray;
+  border: 0.5px solid gray;
+}
+
+.type {
+  text-transform: capitalize;
+}

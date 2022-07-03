@@ -1,0 +1,49 @@
+.item {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 1px 3px 6px 1px rgba(0, 0, 0, 0.96);
+  -webkit-box-shadow: 1px 3px 6px 1px rgba(0, 0, 0, 0.96);
+  -moz-box-shadow: 1px 3px 6px 1px rgba(0, 0, 0, 0.96);
+  transition: transform 300ms;
+  transform: scale(1.02);
+
+  &:hover {
+    box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.75);
+    transform: scale(1);
+    transition: transform 300ms;
+  }
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.online {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 15px;
+  background-color: green;
+}
+
+.offline {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 15px;
+  background-color: red;
+}
+
+.avatar {
+  margin-right: 30px;
+}
+
+.name {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 700;
+}
